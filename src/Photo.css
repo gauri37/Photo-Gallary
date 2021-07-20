@@ -1,0 +1,29 @@
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.photos-column {
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+  padding-left:20px;
+  }
+
+  /*
+  @media (min-width:481px) and (max-width: 767px) {
+    .photos-column{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding-left:10px;
+    }
+  }*/
+  
+
+ 
+  
+  
